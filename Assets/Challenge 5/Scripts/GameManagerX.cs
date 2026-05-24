@@ -11,11 +11,12 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen;
     public Button restartButton; 
+    
 
     public List<GameObject> targetPrefabs;
 
     private int score;
-    private float spawnRate = 2.0f;
+    private float spawnRate = 5.0f;
     public bool isGameActive;
 
     private float spaceBetweenSquares = 2.5f; 
